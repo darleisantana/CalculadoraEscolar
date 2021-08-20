@@ -4,4 +4,7 @@
     <string name="nota_2">Nota 2</string>
     <string name="falta">Falta</string>
     <string name="verificar">Verificar</string>
+    <string name="string_string_calculadora_escolar" />
+    <string name="calculadora_escolar">Calculadora Escolar</string>
+    <string name="string_calculadora_escolar">Calculadora Escolar</string>
 </resources>

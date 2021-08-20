@@ -13,7 +13,7 @@
         android:id="@+id/Nota1"
         android:layout_width="416dp"
         android:layout_height="72dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="76dp"
         android:height="?attr/actionBarSize"
         android:background="@color/Blue_Children"
         android:defaultFocusHighlightEnabled="false"
@@ -28,7 +28,7 @@
         android:textSize="16sp"
         android:verticalScrollbarPosition="defaultPosition"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
@@ -37,7 +37,7 @@
         android:id="@+id/Nota2"
         android:layout_width="431dp"
         android:layout_height="63dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="16dp"
         android:background="@color/Blue_Children"
         android:ems="10"
         android:foregroundGravity="center"
@@ -48,7 +48,7 @@
         android:minHeight="48dp"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Nota1"
         tools:ignore="TextContrastCheck" />
@@ -57,7 +57,7 @@
         android:id="@+id/Falta"
         android:layout_width="439dp"
         android:layout_height="64dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:background="@color/Blue_Children"
         android:ems="10"
         android:foregroundGravity="center"
@@ -68,6 +68,7 @@
         android:minHeight="48dp"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Nota2"
         tools:ignore="TextContrastCheck" />
@@ -76,7 +77,7 @@
         android:id="@+id/button"
         android:layout_width="776dp"
         android:layout_height="160dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="20dp"
         android:background="@color/teal_200"
         android:fontFamily="cursive"
         android:text="@string/verificar"
@@ -84,6 +85,38 @@
         android:textColorHint="@color/teal_200"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Falta" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="1523dp"
+        android:layout_height="77dp"
+        android:fontFamily="casual"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/string_calculadora_escolar"
+        android:textColor="#009688"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/Nota1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

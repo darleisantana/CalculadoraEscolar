@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">HelloWorldInterface</string>
+    <string name="app_name">CalculadoraEscolar</string>
     <string name="nota_1">Nota 1</string>
     <string name="nota_2">Nota 2</string>
     <string name="falta">Falta</string>
     <string name="verificar">Verificar</string>
+    <string name="calculadora_escolar">Calculadora Escolar</string>
 </resources>
